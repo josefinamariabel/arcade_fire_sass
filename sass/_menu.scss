@@ -1,0 +1,55 @@
+nav{
+	margin:0px 20px;
+ 	display: flex;
+ 	justify-content: space-between;
+	ul{
+		li{
+			display: inline;
+			margin: 0px 3px;
+			padding: 3px;
+
+			a{
+				color: white;
+				font-family:"Roboto", "helvetica", sanserif; 
+				font-style: italic;
+				font-weight:bold;
+				font-size: 1.2rem;
+				list-style: none;
+				text-transform: uppercase;
+				margin: 0px 3px;
+
+				.actual{
+					 color: black;
+					 background: red;
+						}
+
+
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px){
+	nav{
+		margin: 0px 20px;
+   	    display: flex;
+    	flex-direction:column;
+   		align-items:center;
+
+		}	
+
+
+
+
+	}
+
+	
+
+
+
+
+
+
+
+
+

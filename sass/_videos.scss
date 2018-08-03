@@ -1,0 +1,26 @@
+.backv{
+	background:url(../imagenes/back3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 110vh ;
+
+	background-color: black;
+	}
+
+
+.contenedorv{
+		background:rgba(255, 255, 255, 0.4);
+		width: 95%;
+		margin: auto;
+
+		video{
+			width: 90%;
+			margin:40px;
+			background: red;
+			source{
+				width:60%;
+				margin: auto;
+			}
+		}
+	}

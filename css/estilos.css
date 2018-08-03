@@ -1,0 +1,541 @@
+/* line 1, /Users/jose/Documents/Corder House /tpf con sass/sass/_intro.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* line 1, /Users/jose/Documents/Corder House /tpf con sass/sass/_menu.scss */
+nav {
+  margin: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 6, /Users/jose/Documents/Corder House /tpf con sass/sass/_menu.scss */
+nav ul li {
+  display: inline;
+  margin: 0px 3px;
+  padding: 3px;
+}
+
+/* line 11, /Users/jose/Documents/Corder House /tpf con sass/sass/_menu.scss */
+nav ul li a {
+  color: white;
+  font-family: "Roboto", "helvetica", sanserif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0px 3px;
+}
+
+/* line 21, /Users/jose/Documents/Corder House /tpf con sass/sass/_menu.scss */
+nav ul li a .actual {
+  color: black;
+  background: red;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 33, /Users/jose/Documents/Corder House /tpf con sass/sass/_menu.scss */
+  nav {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* line 1, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+.back {
+  clear: both;
+  background: url(../imagenes/back2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+/* line 15, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+main .pr ul li {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* line 23, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+main .pr ul .fecha {
+  font-family: "roboto condensed","helvetica", "sanserif";
+  font-size: 1.5rem;
+  font-weight: 00;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 3px;
+  display: inline-block;
+  width: 25%;
+  margin: 10px;
+  padding: 3px;
+}
+
+/* line 36, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+main .pr ul .lugar {
+  font-family: "roboto condensed","helvetica", "sanserif";
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  color: #ffffff;
+  margin: 10px;
+  padding: 3px;
+}
+
+/* line 47, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+main .pr ul .rsvp {
+  font-family: "Times New Roman", serif;
+  font-weight: 500,lighter;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 10px;
+  padding: 3px;
+  display: inline-block;
+  width: 25%;
+}
+
+/* line 59, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+main .pr ul .rsvp a {
+  color: white;
+}
+
+/* line 61, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+main .pr ul .rsvp a:hover {
+  color: black;
+  background: #ffffff;
+  width: 110%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 77, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+  main .pr ul .fecha {
+    font-size: 1rem;
+    padding: 3px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 3px;
+  }
+  /* line 86, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+  main .pr ul .lugar {
+    font-family: "roboto condensed","helvetica", "sanserif";
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    color: #ffffff;
+    /* margin: 10px; */
+    padding: 3px;
+  }
+  /* line 99, /Users/jose/Documents/Corder House /tpf con sass/sass/_tour.scss */
+  main .pr ul .rsvp {
+    font-family: "Times New Roman", serif;
+    font-weight: 500,lighter;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 10px;
+    padding: 3px;
+    display: block;
+    margin: auto;
+  }
+}
+
+/* line 1, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+.backc {
+  background: url(../imagenes/back4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-color: black;
+}
+
+/* line 11, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+.contenedor {
+  width: 90%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 10px;
+}
+
+/* line 18, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+form {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+}
+
+/* line 25, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+form .row {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+/* line 32, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+form label {
+  width: 30%;
+  color: navy blue;
+  padding: 10px;
+  font-family: "Roboto","helvetica","sanserif";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0px 20px;
+  text-align: right;
+}
+
+/* line 46, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+form input {
+  width: 60%;
+  margin: 3px;
+  color: #3c1f3d;
+}
+
+/* line 51, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+form textarea {
+  width: 60%;
+  margin: 3px;
+}
+
+/* line 56, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+form .enviar {
+  width: 30%;
+  height: 50px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Roboto","helvetica","sanserif";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: navy;
+  background: #ffe;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 77, /Users/jose/Documents/Corder House /tpf con sass/sass/_contacto.scss */
+  form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+}
+
+/* line 1, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+.back2 {
+  background: url(../imagenes/back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  background-color: black;
+}
+
+/* line 11, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main {
+  /*cierra contenedor m*/
+}
+
+/* line 12, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm {
+  background: rgba(255, 255, 255, 0.4);
+  width: 95%;
+  margin: auto;
+  /*cierra .main*/
+  /*cierra d4 */
+}
+
+/* line 17, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .main {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  /*cirra .columna*/
+  /*cierra columna*/
+}
+
+/* line 24, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .main .columna1 {
+  width: 60%;
+  /* cierra #eve */
+}
+
+/* line 26, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .main .columna1 #eve {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 32, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .main .columna2 {
+  width: 40%;
+}
+
+/* line 35, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .main .columna2 h2 {
+  width: 100%;
+  font-family: "Roboto Condensed","helvetica","sanserif";
+  font-weight: 500, bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  margin: 10px 30px;
+}
+
+/* line 46, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .main .columna2 .canciones li {
+  font-family: "roboto condensed", helvetica, arial, sanserif;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 300, lighter;
+  color: white;
+  list-style: none;
+  margin: 10px 30px;
+}
+
+/* line 61, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .d4 h3 {
+  font-family: "Roboto Condensed","helvetica","sanserif";
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  display: block;
+  margin: 0px 10px;
+}
+
+/* line 74, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .d4 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 83, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .d4 .discos {
+  width: 50%;
+}
+
+/* line 85, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .d4 .discos p {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto Condensed", helvetica, arial, sanserif;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* line 95, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .d4 .discos .dc {
+  width: 100%;
+}
+
+/* line 98, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+main .contenedorm .d4 .discos .dc:hover {
+  width: 120%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/*cieraa main*/
+@media screen and (max-width: 768px) {
+  /* line 111, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  /* line 119, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .main .columna1 {
+    width: 100%;
+  }
+  /* line 122, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .main .columna2 {
+    width: 100%;
+  }
+  /* line 125, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .main .columna2 h2 {
+    width: 100%;
+    font-family: "Roboto Condensed","helvetica","sanserif";
+    font-weight: 500, bold;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 5px;
+  }
+  /* line 135, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .main .columna2 .canciones li {
+    font-family: "roboto condensed", helvetica, arial, sanserif;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 300, lighter;
+    color: white;
+    list-style: none;
+    margin: 5px 5px;
+  }
+  /* line 145, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .d4 h3 {
+    font-family: "Roboto Condensed","helvetica","sanserif";
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    display: block;
+    margin: 0px 10px;
+  }
+  /* line 156, /Users/jose/Documents/Corder House /tpf con sass/sass/_musicaa.css */
+  main .contenedorm .d4 .discos p {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto Condensed", helvetica, arial, sanserif;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+
+/* line 1, /Users/jose/Documents/Corder House /tpf con sass/sass/_videos.scss */
+.backv {
+  background: url(../imagenes/back3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  background-color: black;
+}
+
+/* line 12, /Users/jose/Documents/Corder House /tpf con sass/sass/_videos.scss */
+.contenedorv {
+  background: rgba(255, 255, 255, 0.4);
+  width: 95%;
+  margin: auto;
+}
+
+/* line 17, /Users/jose/Documents/Corder House /tpf con sass/sass/_videos.scss */
+.contenedorv video {
+  width: 90%;
+  margin: 40px;
+  background: red;
+}
+
+/* line 21, /Users/jose/Documents/Corder House /tpf con sass/sass/_videos.scss */
+.contenedorv video source {
+  width: 60%;
+  margin: auto;
+}
+
+/*@import "mobile";*/
+/* line 9, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+.imagenprincipal {
+  display: block;
+  width: 550px;
+  padding: 20px;
+  margin: auto;
+}
+
+/* line 16, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+footer img {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+}
+
+/* line 22, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+.actual {
+  color: black;
+  font-style: bold;
+}
+
+/* line 26, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+body {
+  background-color: black;
+}
+
+/* line 30, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+.titulos {
+  font-family: "Roboto Condensed","helvetica","sanserif";
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  display: block;
+  margin: 0px 20px;
+  text-align: right;
+}
+
+/* line 42, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+.index {
+  width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 49, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+  nav {
+    background: red;
+  }
+  /* line 54, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+  .imagenprincipal {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+  }
+  /* line 62, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+  .index {
+    height: 80vh;
+    width: 100vw;
+  }
+  /* line 67, /Users/jose/Documents/Corder House /tpf con sass/sass/estilos.scss */
+  .titulos {
+    font-family: "Roboto Condensed","helvetica","sanserif";
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0rem;
+    display: block;
+    margin: 0px 20px;
+    text-align: right;
+  }
+}
+
+/*# sourceMappingURL=../css/estilos.map */

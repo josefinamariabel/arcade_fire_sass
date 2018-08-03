@@ -1,0 +1,177 @@
+.back2{
+	background:url(../imagenes/back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 110vh ;
+
+	background-color: black;
+	}
+
+main{
+	.contenedorm{
+		background:rgba(255, 255, 255, 0.4);
+		width: 95%;
+		margin: auto;
+
+		.main{
+			margin: auto;
+			display: flex;
+			justify-content: space-between;
+
+			padding: 50px;
+
+			.columna1{
+				width: 60%;
+				#eve{
+					width: 100%;
+					height :100%;
+					} /* cierra #eve */			
+			}/*cirra .columna*/
+
+			.columna2{
+				width: 40%;
+
+					h2{
+						width: 100%;
+						font-family:"Roboto Condensed","helvetica","sanserif";; 
+						font-weight: 500, bold;
+						font-size: 2rem;
+						text-transform: uppercase;
+						color: white;	
+						margin: 10px 30px;	
+					}
+					.canciones{
+
+						li {
+						font-family:"roboto condensed", helvetica, arial, sanserif;
+						text-align:left;
+						text-transform: capitalize;
+						font-size: 1rem ;
+						font-weight: 300, lighter;
+						color: white;
+						list-style: none;
+						margin: 10px 30px;
+							}
+					}
+			} /*cierra columna*/
+		}  /*cierra .main*/
+		.d4{
+
+				h3{
+					font-family:"Roboto Condensed","helvetica","sanserif"; 
+					font-style: italic;
+					color:rgba(255, 255, 255, 0.8); 
+					text-transform: uppercase;
+					font-size: 3rem;
+					letter-spacing: 0.2rem;
+					display: block;
+					margin:0px 10px;
+
+				}
+
+
+					ul{
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-around;
+						align-items: center;
+					}
+
+					
+
+							.discos{
+								width: 50%;
+								p{
+									text-transform: uppercase;
+									text-align: center;
+									font-family:"Roboto Condensed", helvetica, arial, sanserif;
+									text-transform: capitalize;
+									font-size: 1.5rem ;
+									color: white;
+									text-transform: uppercase;
+								}
+
+								.dc{
+									width: 100%;
+
+									&:hover {
+										width :120%;
+										background:rgba(255, 255, 255, 0.8); 
+									}
+
+								}
+							}
+		} /*cierra d4 */			
+
+	}	/*cierra contenedor m*/		
+} /*cieraa main*/
+
+@media screen and (max-width: 768px){
+	main .contenedorm .main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+main .contenedorm .main .columna1 {
+    width: 100%;
+}
+main .contenedorm .main .columna2 {
+    width: 100%;
+}
+main .contenedorm .main .columna2 h2 {
+    width: 100%;
+    font-family: "Roboto Condensed","helvetica","sanserif";
+    font-weight: 500, bold;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 5px;
+    }
+
+    main .contenedorm .main .columna2 .canciones li {
+    font-family: "roboto condensed", helvetica, arial, sanserif;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    font-weight: 300, lighter;
+    color: white;
+    list-style: none;
+    margin: 5px 5px;
+	}
+	main .contenedorm .d4 h3 {
+    font-family: "Roboto Condensed","helvetica","sanserif";
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    display: block;
+    margin: 0px 10px;
+	}
+
+	main .contenedorm .d4 .discos p {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto Condensed", helvetica, arial, sanserif;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
